@@ -6,10 +6,10 @@ let date = document.querySelector('.date');
 
 
 setInterval( () => {
-    all();
-})
+    today();
+},1000)
 
-let all = () => {
+let today = () => {
     let today = new Date();
     let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep','Oct', 'Nov', 'Dec'];
 
